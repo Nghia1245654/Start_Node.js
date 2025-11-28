@@ -1,0 +1,24 @@
+# POST http://localhost:3001/api-docs/students
+# Content-Type: application/json
+
+# {
+#   "name": "King",
+#   "email": "king@example.com",
+#   "password": "123456",
+#   "phone": "1234567890",
+#   "skill": "React"
+# }
+// get all users
+GET http://localhost:3001/api-docs
+
+// get a single user
+# GET http://localhost:3001/api/users/6925c3ccff7724311a59734c
+// update a user
+# PUT http://localhost:3001/api/users/6925c3ccff7724311a59734c
+#  Content-Type: application/json
+ 
+# {
+#  "name": "King",
+#  "email": "king@example.com",
+#    "password": "123456"
+# }
