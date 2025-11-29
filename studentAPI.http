@@ -1,4 +1,4 @@
-# POST http://localhost:3001/api-docs/students
+# POST http://localhost:3001/api/students
 # Content-Type: application/json
 
 # {
@@ -9,7 +9,7 @@
 #   "skill": "React"
 # }
 // get all users
-GET http://localhost:3001/api-docs
+GET http://localhost:3001/api/students
 
 // get a single user
 # GET http://localhost:3001/api/users/6925c3ccff7724311a59734c
